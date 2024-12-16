@@ -1,0 +1,12 @@
+sudo nano /etc/passwd
+
+sudo nano /etc/proftpd/proftpd.conf
+
+sudo cat /etc/shells
+
+sudo service proftpd restart
+
+sudo mkdir /srv/ftp/prueba
+
+sudo cat /var/log/proftpd/xferlog
+sudo cat /var/log/proftpd/proftpd.log

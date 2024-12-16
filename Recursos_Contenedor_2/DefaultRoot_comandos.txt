@@ -1,0 +1,7 @@
+ifconfig
+
+sudo cat /etc/passwd
+
+sudo nano /etc/proftpd/proftpd.conf
+
+sudo service proftpd restart

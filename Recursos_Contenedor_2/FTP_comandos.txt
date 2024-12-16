@@ -1,0 +1,14 @@
+sudo apt-get install proftpd
+
+sudo apt-get install apache2-utils
+
+sudo htpasswd -c /etc/proftpd/passwd.vhost nombre_de_usuario
+
+sudo nano /etc/proftpd/passwd.vhost
+
+   añadimos (6)  ::::::/ruta:/bin/false
+   
+Asegúrate de que el archivo tenga permisos adecuados para que el servidor FTP pueda leerlo:
+sudo chmod 600 /etc/proftpd/passwd.vhost
+
+sudo service proftpd restart
